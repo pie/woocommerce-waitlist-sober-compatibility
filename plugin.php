@@ -6,3 +6,18 @@ Version: 0.0.1
 Author: The team at PIE
 Author URI: https://pie.co.de
 */
+
+namespace PIE\PluginTemplate;
+
+/**
+ * Load Composer autoloader
+ */
+require_once plugin_dir_path(__FILE__) . 'vendor/autoload.php';
+
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$update_checker = PucFactory::buildUpdateChecker(
+    'https://pie.github.io/invision-community-single-logout/update.json',
+    __FILE__,
+    'invision-community-single-logout'
+);
