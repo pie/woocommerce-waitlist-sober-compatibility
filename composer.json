@@ -1,6 +1,6 @@
 {
-    "name": "pie/plugin_template",
-    "description": "This plugin doesn't do anything, but gives you a very minimal starting template.",
+    "name": "pie/woocommerce-waitlist-sober-compatibility",
+    "description": "This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes",
     "type": "wordpress-plugin",
     "license": "GPL",
     "authors": [

@@ -1,8 +1,8 @@
 {
-    "name": "Pie Plugin Template",
+    "name": "WooCommerce Waitlist Sober Theme Compatibility",
     "version": "0.0.1",
-    "download_url": "https://github.com/pie/plugin_template/releases/download/0.0.1/update.zip",
+    "download_url": "https://github.com/pie/woocommerce-waitlist-sober-compatibility/releases/download/0.0.1/update.zip",
     "sections": {
-        "description" : "This plugin doesn't do anything, but gives you a very minimal starting template."
+        "description" : "This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes"
     }
 }
