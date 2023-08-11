@@ -1,9 +1,9 @@
 # WooCommerce Waitlist Sober Theme Compatibility
 
-This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes.
+This plugin adds some functionality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes.
 
 Steps to get up and running:
-1. Download the zip of the latest release
+1. Download the zip of the latest release from https://github.com/pie/woocommerce-waitlist-sober-compatibility/releases
 1. Upload to your WordPress install
 1. Activate
 
