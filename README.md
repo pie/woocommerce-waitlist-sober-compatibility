@@ -1,15 +1,15 @@
-# Pie Plugin Template
-Just a starter template for basic WordPress plugins. Please create a new repo from this template and make the relevant edits to reflect your plugin. If you can improve this plugin template, then please feel free to raise an improvement idea on Slack for discussion.
+# WooCommerce Waitlist Sober Theme Compatibility
 
-Steps to get up and running with integrated updates:
+This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes.
 
-1. Create a repository from this template and note your repository slug
-1. Clone to your local machine, cd into the directory and run `./init.sh`
-1. Start coding!
+Steps to get up and running:
+1. Download the zip of the latest release
+1. Upload to your WordPress install
+1. Activate
 
 Deploying updates:
 
-This plugin template is set up to work with integrated WordPress updates through the use of
+This plugin is set up to work with integrated WordPress updates through the use of
 [yahnis-elsts/plugin-update-checker](https://github.com/YahnisElsts/plugin-update-checker) and 
 [rymndhng/release-on-push-action](https://github.com/rymndhng/release-on-push-action)
 
