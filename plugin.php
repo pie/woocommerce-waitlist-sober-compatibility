@@ -54,7 +54,7 @@ function output_required_wcwl_elements(): void
  {
     if ( function_exists('wcwl_get_waitlist_for_archive') && function_exists('wc_get_product')  ){
         global $product;
-        if ( $product && $product->is_type( 'simple') ) {
+        if ( $product && \WooCommerce_Waitlist_Plugin::is_simple( $product ) ) {
             echo wcwl_get_waitlist_for_archive( wc_get_product() );
         }
     }
