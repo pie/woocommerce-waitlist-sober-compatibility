@@ -2,7 +2,7 @@
 /*
 Plugin Name: WooCommerce Waitlist Sober Theme Compatibility
 Description: This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes
-Version: 0.1.0
+Version: 0.1.1
 Author: The team at PIE
 Author URI: https://pie.co.de
 */
