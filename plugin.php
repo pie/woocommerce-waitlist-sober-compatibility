@@ -57,6 +57,10 @@ function output_required_wcwl_elements(): void
         if ( $product && \WooCommerce_Waitlist_Plugin::is_simple( $product ) ) {
             echo wcwl_get_waitlist_for_archive( wc_get_product() );
         }
+        // if ( $product && \WooCommerce_Waitlist_Plugin::is_variable( $product ) ) {
+        //     $url = get_permalink( $product->get_id() );
+        //     echo '<a href="' . $url . '"><button type="button" class="button">' . __( 'Join Waitlist', 'woocommerce-waitlist' ) . '</button></a>';
+        // }
     }
 }
 
