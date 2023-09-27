@@ -1,6 +1,6 @@
 {
   "name": "woocommerce-waitlist-sober-compatibility",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes",
   "main": "plugin.php",
   "repository": "git@github.com:pie/woocommerce-waitlist-sober-compatibility.git",

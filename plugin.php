@@ -1,8 +1,8 @@
 <?php 
 /*
 Plugin Name: WooCommerce Waitlist Sober Theme Compatibility
-Description: This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes 
-Version: 0.0.1
+Description: This plugin adds some functoinality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes
+Version: 0.1.1
 Author: The team at PIE
 Author URI: https://pie.co.de
 */
@@ -53,7 +53,14 @@ function pie_force_init_waitlist_js(): void
 function output_required_wcwl_elements(): void
  {
     if ( function_exists('wcwl_get_waitlist_for_archive') && function_exists('wc_get_product')  ){
-        echo wcwl_get_waitlist_for_archive( wc_get_product() );
+        global $product;
+        if ( $product && \WooCommerce_Waitlist_Plugin::is_simple( $product ) ) {
+            echo wcwl_get_waitlist_for_archive( wc_get_product() );
+        }
+        // if ( $product && \WooCommerce_Waitlist_Plugin::is_variable( $product ) ) {
+        //     $url = get_permalink( $product->get_id() );
+        //     echo '<a href="' . $url . '"><button type="button" class="button">' . __( 'Join Waitlist', 'woocommerce-waitlist' ) . '</button></a>';
+        // }
     }
 }
 
