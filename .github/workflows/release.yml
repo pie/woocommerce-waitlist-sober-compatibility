@@ -83,4 +83,4 @@ jobs:
           name: ${{ needs.check_for_release.outputs.version }}
           body: ${{ needs.check_for_release.outputs.release_body }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "~/woocommerce-waitlist-sober-compatibility.zip,~/update.zip" 
+          artifacts: "~/woocommerce-waitlist-sober-compatibility.zip" 
