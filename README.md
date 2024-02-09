@@ -2,6 +2,8 @@
 
 This plugin adds some functionality to make WooCommerce Waitlist more compatible with the Sober Theme by UIX Themes.
 
+The Sober theme uses AJAX to load products on the shop page. This means that the waitlist plugin doesn't get a chance to initialize the waitlist buttons. This plugin hooks into the functionality that loads the quickview and makes sure that the waitlist buttons are initialized after the quickview is loaded. 
+
 ## Steps to get up and running:
 
 1. Download the zip of the latest release from https://github.com/pie/woocommerce-waitlist-sober-compatibility/releases
